@@ -92,7 +92,7 @@ E adicione abaixo nas colunas os respectivos dados retirados do seguinte site:
 <https://ptable.com/#Propriedades>
 
 Exemplo:
-> Simbolo, Nome, NumeroAtomico, Linha, Coluna, EstadoFisico
+> Simbolo, Nome, NumeroAtomico, Linha, Coluna, EstadoFisico  
 > Cr, Cromio, 24, 4, 6, Solido
 
 **Faça isso com no mínimo 15 elementos, aí já terá o CSV pronto para manipular.**
