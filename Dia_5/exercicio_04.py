@@ -21,7 +21,7 @@ def main():
         # Saída maior de idade
         print("Maior de idade")
     
-    # Se for maior que 12
+    # Se for maior ou igual a 12
     elif idade >= 12:
         # Saída adolescente
         print("Você é um adolescente")
