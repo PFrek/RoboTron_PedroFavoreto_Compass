@@ -10,59 +10,59 @@ Esta pasta contém as soluções dos exercícios de Python disponibilizados no D
 
 ## Enunciados dos exercícios
 
-> ### Exercício 1 -- [01/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> ### Exercício 01 -- [01/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_5/exercicio_01.py)
 >
 > Construa um programa que quando executado mostra "Hello World".
 
 -----
 
-> ### Exercício 2 -- [02/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> ### Exercício 02 -- [02/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_5/exercicio_02.py) 
 >
 > Construa um programa que armazena em duas variáveis duas notas e apresenta a média entre as duas.
 
 -----
 
-> ### Exercício 3 -- [03/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> ### Exercício 03 -- [03/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_5/exercicio_03.py)
 > 
 > Construa um programa que recebe dois valores, soma esses valores e apresenta se o resultado é par ou ímpar.
 
 -----
 
-> ### Exercício 4 -- [04/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> ### Exercício 04 -- [04/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_5/exercicio_04.py)
 > 
 > Construa um programa que armazena uma idade em uma variável e compara, se a idade for maior que 18, apresenta "Maior de idade", se a idade for menor que 12, apresenta "Você é uma criança" e se for maior que 12 e menor que 18, apresenta "Você é um adolescente".
 
 -----
 
-> ### Exercício 5 -- [05/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> ### Exercício 05 -- [05/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > Construa um programa que recebe 20 valores para X e no final apresenta a média aritmética dos valores pares digitados.
 
 -----
 
-> ### Exercício 6 -- [06/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> ### Exercício 06 -- [06/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > Construa um programa que receba um valor inteiro maior que 2 em uma variável x e apresenta os ímpares entre 0 e x.
 
 -----
 
-> ### Exercício 7 -- [07/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> ### Exercício 07 -- [07/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > Crie um programa que contém uma função que receba dois parâmetros inteiros e retorna a média dos dois valores.
 
 -----
 
-> ### Exercício 8 [08/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
+> ### Exercício 08 -- [08/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
 > 
 > Crie um programa que lê 1 valor inteiro para X. Se o valor for par, calcular o fatorial de X em uma função e apresentar o resultado fora da função. Se o valor for ímpar, apresentar em uma função a tabuada de 1 a 10 de X.
 
 -----
 
-> ### Exercício 9 -- [09/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
+> ### Exercício 09 -- [09/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
 > 
 > Crie um programa que recebe 15 valores e armazena em uma lista, e no final da execução mostre os valores da lista do último para o primeiro.
 

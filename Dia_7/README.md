@@ -8,63 +8,63 @@ Esta pasta contém as soluções dos exercícios de Python disponibilizados no D
 
 ## Links
 
-**Link JSON 1** = <https://pastebin.com/amF0XHEa>  
-**Link JSON 2** = <https://pastebin.com/GxdV3pRP>  
-**Link CSV** = <https://pastebin.com/LndbVMRT>
+[**Link JSON 1**](https://pastebin.com/amF0XHEa)  
+[**Link JSON 2**](https://pastebin.com/GxdV3pRP)  
+[**Link CSV**](https://pastebin.com/LndbVMRT)  
 
 -----
 
 ## Enunciados dos exercícios
 
-> ### Exercício 1 -- [13/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> ### Exercício 01 -- [13/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > Baixe o arquivo do link **JSON 1**, abra ele no vsCode com Python nomeando-o como partida, guarde em uma variável e printe o JSON inteiro no terminal.
 
 -----
 
-> ### Exercício 2 -- [14/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> ### Exercício 02 -- [14/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > Pegue o arquivo **JSON 1** e printe apenas o nome do time vencedor no terminal.
 
 -----
 
-> ### Exercício 3 -- [15/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
+> ### Exercício 03 -- [15/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
 > 
 > Do **JSON 1** Guarde apenas o Nome do Estádio, o Placar e o Status do jogo dentro de variáveis e mostre-as.
 
 -----
 
-> ### Exercício 4 -- [16/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> ### Exercício 04 -- [16/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > No **JSON 1** printe todas as chaves e valores do time visitante.
 
 -----
 
-> ### Exercício 5 -- [17/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> ### Exercício 05 -- [17/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > Guarde o arquivo **JSON 2** nomeando-o como **campeonato** em uma variável e printe todos os seus dados.
 
 -----
 
-> ### Exercício 6 -- [18/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
+> ### Exercício 06 -- [18/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
 > 
 > Faça com que o programa printe apenas os primeiros dados dentro de edicao_atual, fase_atual, rodada_atual usando o **JSON 2**.
 
 -----
 
-> ### Exercício 7 -- [19/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> ### Exercício 07 -- [19/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > Percorra o **JSON 2**, utilizando o loop FOR e printe suas chaves principais.
 
 -----
 
-> ### Exercício 8 -- [20/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> ### Exercício 08 -- [20/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > Abra o arquivo **CSV** com Pandas e guarde em uma variável de sua escolha e printe o conteúdo no terminal.
 
 -----
 
-> ### Exercício 9 -- [21/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> ### Exercício 09 -- [21/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > Usando Pandas, leia apenas os dados da coluna Age do **CSV**.
 
