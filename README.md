@@ -21,6 +21,7 @@ git clone https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass
 ## Tecnologias utilizadas
 
 - [Python 3.10.5](https://www.python.org/downloads/release/python-3105/)
+- [Pandas 1.4.3](https://pandas.pydata.org/)
 
 ## Autores
 
