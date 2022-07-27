@@ -16,97 +16,97 @@ Esta pasta contém as soluções dos exercícios de Python disponibilizados no D
 
 ## Enunciados dos exercícios
 
-> ### Exercício 1 -- *(verde)*
+> ### Exercício 1 -- [13/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > Baixe o arquivo do link **JSON 1**, abra ele no vsCode com Python nomeando-o como partida, guarde em uma variável e printe o JSON inteiro no terminal.
 
 -----
 
-> ### Exercício 2 -- *(verde)*
+> ### Exercício 2 -- [14/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > Pegue o arquivo **JSON 1** e printe apenas o nome do time vencedor no terminal.
 
 -----
 
-> ### Exercício 3 -- *(amarelo)*
+> ### Exercício 3 -- [15/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
 > 
 > Do **JSON 1** Guarde apenas o Nome do Estádio, o Placar e o Status do jogo dentro de variáveis e mostre-as.
 
 -----
 
-> ### Exercício 4 -- *(verde)*
+> ### Exercício 4 -- [16/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > No **JSON 1** printe todas as chaves e valores do time visitante.
 
 -----
 
-> ### Exercício 5 -- *(verde)*
+> ### Exercício 5 -- [17/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > Guarde o arquivo **JSON 2** nomeando-o como **campeonato** em uma variável e printe todos os seus dados.
 
 -----
 
-> ### Exercício 6 -- *(amarelo)*
+> ### Exercício 6 -- [18/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
 > 
 > Faça com que o programa printe apenas os primeiros dados dentro de edicao_atual, fase_atual, rodada_atual usando o **JSON 2**.
 
 -----
 
-> ### Exercício 7 -- *(verde)*
+> ### Exercício 7 -- [19/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > Percorra o **JSON 2**, utilizando o loop FOR e printe suas chaves principais.
 
 -----
 
-> ### Exercício 8 -- *(verde)*
+> ### Exercício 8 -- [20/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > Abra o arquivo **CSV** com Pandas e guarde em uma variável de sua escolha e printe o conteúdo no terminal.
 
 -----
 
-> ### Exercício 9 -- *(verde)*
+> ### Exercício 9 -- [21/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > Usando Pandas, leia apenas os dados da coluna Age do **CSV**.
 
 -----
 
-> ### Exercício 10 -- *(amarelo)*
+> ### Exercício 10 -- [22/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
 > 
 > Usando Pandas, procure por um dado específico (da sua escolha) e printe somente o mesmo utilizando o CSV.
 
 -----
 
-> ### Exercício 11 -- *(verde)*
+> ### Exercício 11 -- [23/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
 > 
 > Printe o nome do Ator que ganhou o Oscar em 1993.
 
 -----
 
-> ### Exercício 12 -- *(amarelo)*
+> ### Exercício 12 -- [24/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
 > 
 > Printe somente o nome dos atores que ganharam o Oscar em 1991 e 2016.
 
 -----
 
-> ### Exercício 13 -- *(amarelo)*
+> ### Exercício 13 -- [25/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
 >
 > Crie mais uma coluna em tempo de execução juntando os dados movie e year.
 
 -----
 
-> ### Exercício 14 -- *(amarelo)*
+> ### Exercício 14 -- [26/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
 > 
 > Printe todos os nomes e as idades dos atores que ganharam o oscar de 1987 até 1999.
 
 -----
 
-> ### Exercício 15 -- *(amarelo)*
+> ### Exercício 15 -- [27/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
 >
 > Mostre todos os filmes menos o "The Revenant".
 
 -----
 
-## Exercício final de leitura de dados CSV e JSON
+## Exercício final de leitura de dados CSV e JSON -- [28/28] ![Difícil](https://img.shields.io/badge/-Dif%C3%ADcil-red)
 
 **Em Python crie uma aplicação que mostre elementos específicos em uma tabela periódica:**
 
