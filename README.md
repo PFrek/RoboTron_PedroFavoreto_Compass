@@ -1,5 +1,7 @@
 # Challenge Sprint 4 - Technology Core Python
 
+![progress-bar](https://progress-bar.dev/4/?scale=28&title=solucionados&width=200&suffix=/28)
+
 Neste repositório serão colocadas as soluções dos exercícios de Python, conforme as instruções do Challenge da Sprint 4 da trilha RoboTron.
 
 
@@ -33,4 +35,5 @@ git clone https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass
 
 ## Créditos
 
-- Referência de sintaxe markdown: <https://www.markdownguide.org/basic-syntax/>
+- [Referência de sintaxe markdown](https://www.markdownguide.org/basic-syntax/)
+- [Barras de progresso: progress-bar.dev](https://github.com/fredericojordan/progress-bar)
