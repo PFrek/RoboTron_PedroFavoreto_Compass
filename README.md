@@ -3,7 +3,6 @@
 Neste repositório serão colocadas as soluções dos exercícios de Python, conforme as instruções do Challenge da Sprint 4 da trilha RoboTron.
 
 
-
 ## Apresentação
 
 
@@ -13,11 +12,15 @@ Neste repositório serão colocadas as soluções dos exercícios de Python, con
 
 ### Instalação
 
-(Informações de instalação)
+```bash
+# clonar repositório
+git clone https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass
+
+```
 
 ## Tecnologias utilizadas
 
-(Informações sobre as tecnologias utilizadas)
+- [Python 3.10.5](https://www.python.org/downloads/release/python-3105/)
 
 ## Autores
 
