@@ -42,6 +42,11 @@ def fatorial(x):
     
 
 def tabuada(x):
+    """Apresenta a tabuada de 1 a 10 de X.
+
+    Args:
+        x (int): Valor do qual a tabuada será apresentada.
+    """
     # Para cada número entre 1 e 10
     for i in range(1, 11):
         # Saída da tabuada de X
