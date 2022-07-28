@@ -12,7 +12,6 @@ Referências:
     https://math.stackexchange.com/questions/909395/what-is-the-arithmetic-mean-of-no-numbers
 """
 
-
 # Função main
 def main():
     # Lista que guardará os números entrados
@@ -24,10 +23,16 @@ def main():
     # Contador de números pares da entrada
     n_pares = 0
     
+    
+    print("Digite 20 números: ")
     # Enquanto a lista tiver menos que 20 itens
     while len(numeros) < 20:
         # Recebe uma entrada /ou/ várias entradas separadas por espaço
-        entradas = list(map(int, input().split()))
+        try:
+            entradas = list(map(int, input().split()))
+        except ValueError as err:
+            print("Aviso: Entrada inválida. Linha descartada. Tente novamente. -- ", err)
+            continue
         
         # Para cada nova entrada
         for entrada in entradas:

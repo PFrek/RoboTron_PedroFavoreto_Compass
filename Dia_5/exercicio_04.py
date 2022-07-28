@@ -10,11 +10,16 @@ Autor:
     Pedro Favoreto Gaya - 27/07/2022
 """
 
-
 # Função main
 def main():
     # Entrada da idade
-    idade = int(input("Digite a idade: "))
+    try:
+        idade = int(input("Digite a idade: "))
+        if idade < 0:
+            raise ValueError("Idade não pode ser um número negativo")
+    except ValueError as err:
+        print("Erro: Entrada inválida. -- ", err)
+        return
     
     # Se for maior ou igual a 18
     if idade >= 18:

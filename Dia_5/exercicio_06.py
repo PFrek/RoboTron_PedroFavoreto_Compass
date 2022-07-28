@@ -12,23 +12,24 @@ Referência:
     https://www.w3schools.com/python/ref_func_range.asp
 """
 
-
 # Função main
 def main():
     # Entrada
-    x = int(input())
-    
-    # Se a entrada for menor ou igual a 2
-    if x <= 2:
-        # Saída de entrada inválida
-        print("Entrada inválida: número deve ser maior que 2")
+    try:
+        x = int(input("Digite um número inteiro maior ou igual a 2: "))
+        
+        # Se a entrada for menor que 2
+        if x < 2:
+            raise ValueError("Número deve ser maior ou igual a 2")
+        
+    except ValueError as err:
+        print("Erro: Entrada inválida. -- ", err)
         return
     
-    # Range com os ímpares até X (exclusivo)
-    impares = range(1, x, 2)
+    
     
     # Lista com os ímpares até X (inclusivo)
-    # impares = range(1, x+1, 2)
+    impares = range(1, x+1, 2)
     
     # Saída
     for n in impares:

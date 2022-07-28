@@ -8,11 +8,14 @@ Autor:
     Pedro Favoreto Gaya - 27/07/2022
 """
 
-
 # Função main
 def main():
     # Entrada dos valores
-    valor_1, valor_2 = map(int, input("Digite os dois valores: ").split())
+    try:
+        valor_1, valor_2 = map(int, input("Digite os dois valores inteiros: ").split())
+    except ValueError as err:
+        print("Erro: Entrada inválida. -- ", err)
+        return
     
     # Soma dos valores
     soma = valor_1 + valor_2

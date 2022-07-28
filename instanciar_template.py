@@ -57,7 +57,7 @@ def main():
         linhas[0] = linhas[0].replace("YY", str(int(n_exercicio)+12))
     
     data = datetime.datetime.now()
-    # Substitui [Data de criação] da linha 7 pela data de hoje
+    # Substitui [Data] da linha 7 pela data de hoje
     linhas[6] = linhas[6].replace("[Data]", 
                                   '/'.join([
                                         str(data.day).zfill(2),
