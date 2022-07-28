@@ -54,7 +54,7 @@ def main():
     if int(dia) == 5:
         linhas[0] = linhas[0].replace("YY", n_exercicio.zfill(2))
     elif int(dia) == 7:
-        linhas[0] = linhas[0].replace("YY", n_exercicio+12)
+        linhas[0] = linhas[0].replace("YY", str(int(n_exercicio)+12))
     
     data = datetime.datetime.now()
     # Substitui [Data de criação] da linha 7 pela data de hoje
