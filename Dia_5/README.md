@@ -1,6 +1,6 @@
 # Exercícios Dia 5
 
-![progress-bar](https://progress-bar.dev/6/?scale=12&title=solucionados&width=200&suffix=/12)
+![progress-bar](https://progress-bar.dev/8/?scale=12&title=solucionados&width=200&suffix=/12)
 
 Esta pasta contém as soluções dos exercícios de Python disponibilizados no Dia 5 da trilha.  
 
@@ -53,12 +53,14 @@ Esta pasta contém as soluções dos exercícios de Python disponibilizados no D
 -----
 
 > ### Exercício 07 -- [07/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_5/exercicio_07.py)
 > 
 > Crie um programa que contém uma função que receba dois parâmetros inteiros e retorna a média dos dois valores.
 
 -----
 
 > ### Exercício 08 -- [08/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_5/exercicio_08.py)
 > 
 > Crie um programa que lê 1 valor inteiro para X. Se o valor for par, calcular o fatorial de X em uma função e apresentar o resultado fora da função. Se o valor for ímpar, apresentar em uma função a tabuada de 1 a 10 de X.
 
