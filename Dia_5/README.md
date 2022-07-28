@@ -1,6 +1,6 @@
 # Exercícios Dia 5
 
-![progress-bar](https://progress-bar.dev/4/?scale=12&title=solucionados&width=200&suffix=/12)
+![progress-bar](https://progress-bar.dev/6/?scale=12&title=solucionados&width=200&suffix=/12)
 
 Esta pasta contém as soluções dos exercícios de Python disponibilizados no Dia 5 da trilha.  
 
@@ -39,12 +39,14 @@ Esta pasta contém as soluções dos exercícios de Python disponibilizados no D
 -----
 
 > ### Exercício 05 -- [05/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_5/exercicio_05.py)
 > 
 > Construa um programa que recebe 20 valores para X e no final apresenta a média aritmética dos valores pares digitados.
 
 -----
 
 > ### Exercício 06 -- [06/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_5/exercicio_06.py)
 > 
 > Construa um programa que receba um valor inteiro maior que 2 em uma variável x e apresenta os ímpares entre 0 e x.
 
