@@ -19,8 +19,15 @@ def main():
     media = (nota_1 + nota_2) / 2
     
     # Saída
-    print(f"Média: {media}")
+    print("Média:", media)
 
 
 if __name__ == '__main__':
     main()
+    
+"""
+
+Site para teste:
+https://miniwebtool.com/br/mean-calculator/
+
+"""

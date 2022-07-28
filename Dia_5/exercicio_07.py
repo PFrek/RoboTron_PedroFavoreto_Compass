@@ -1,10 +1,10 @@
-"""Exercício X [YY/28]
+"""Exercício 7 [07/28]
 
 Enunciado:
     [Enunciado do exercício]
 
 Autor:
-    Pedro Favoreto Gaya - [Data]
+    Pedro Favoreto Gaya - 28/07/2022
 """
 
 
