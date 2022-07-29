@@ -23,12 +23,21 @@ def media(valor_1, valor_2):
 
 # Função main
 def main():
+    
+    print("="*30)
+    print("ENTRADA")
+    print("="*30)
+    
     # Entrada dos dois valores
     try:
         x, y = map(int, input("Digite dois números inteiros: ").split())
     except ValueError as err:
         print("Erro: Entrada inválida. -- ", err)
         return
+    
+    print("="*30)
+    print("SAÍDA")
+    print("="*30)
     
     # Saída
     print("Média:", media(x, y))

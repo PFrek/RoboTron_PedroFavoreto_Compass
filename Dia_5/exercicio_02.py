@@ -18,6 +18,10 @@ def main():
     # Cálculo da média
     media = (nota_1 + nota_2) / 2
     
+    print("="*30)
+    print("SAÍDA")
+    print("="*30)
+    
     # Saída
     print("Média:", media)
 

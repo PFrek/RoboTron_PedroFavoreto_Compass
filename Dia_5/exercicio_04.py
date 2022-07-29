@@ -12,6 +12,11 @@ Autor:
 
 # Função main
 def main():
+    
+    print("="*30)
+    print("ENTRADA")
+    print("="*30)
+    
     # Entrada da idade
     try:
         idade = int(input("Digite a idade: "))
@@ -20,6 +25,10 @@ def main():
     except ValueError as err:
         print("Erro: Entrada inválida. -- ", err)
         return
+    
+    print("="*30)
+    print("SAÍDA")
+    print("="*30)
     
     # Se for maior ou igual a 18
     if idade >= 18:

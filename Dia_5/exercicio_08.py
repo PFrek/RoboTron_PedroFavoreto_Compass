@@ -47,6 +47,7 @@ def tabuada(x):
     Args:
         x (int): Valor do qual a tabuada será apresentada.
     """
+    
     # Para cada número entre 1 e 10
     for i in range(1, 11):
         # Saída da tabuada de X
@@ -54,12 +55,21 @@ def tabuada(x):
 
 # Função main
 def main():
+    
+    print("="*30)
+    print("ENTRADA")
+    print("="*30)
+    
     # Entrada do inteiro X
     try:
         x = int(input("Digite um número inteiro: "))
     except ValueError as err:
         print("Erro: Entrada inválida. -- ", err)
         return
+    
+    print("="*30)
+    print("SAÍDA")
+    print("="*30)
     
     # Se X for par
     if x % 2 == 0:

@@ -1,6 +1,6 @@
 # Exercícios Dia 5
 
-![progress-bar](https://progress-bar.dev/8/?scale=12&title=solucionados&width=200&suffix=/12)
+![progress-bar](https://progress-bar.dev/12/?scale=12&title=solucionados&width=200&suffix=/12)
 
 Esta pasta contém as soluções dos exercícios de Python disponibilizados no Dia 5 da trilha.  
 
@@ -67,18 +67,21 @@ Esta pasta contém as soluções dos exercícios de Python disponibilizados no D
 -----
 
 > ### Exercício 09 -- [09/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_5/exercicio_09.py)
 > 
 > Crie um programa que recebe 15 valores e armazena em uma lista, e no final da execução mostre os valores da lista do último para o primeiro.
 
 -----
 
 > ### Exercício 10 -- [10/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_5/exercicio_10.py)
 > 
 > Crie um programa que recebe uma lista com três frutas e compare com uma lista com os valores ["maça", "banana", "pera"].
 
 -----
 
 > ### Exercício 11 -- [11/28] ![Difícil](https://img.shields.io/badge/-Dif%C3%ADcil-red)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_5/exercicio_11.py)
 > 
 > Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o mesmo pode começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.  
 > **Entrada**: A entrada contém dois valores inteiros representando a hora de início e a hora de fim do jogo.  
@@ -93,6 +96,7 @@ Esta pasta contém as soluções dos exercícios de Python disponibilizados no D
 -----
 
 > ### Exercício 12 -- [12/28] ![Difícil](https://img.shields.io/badge/-Dif%C3%ADcil-red)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_5/exercicio_12.py)
 > 
 > Leia um valor inteiro correspondente à idade de uma pessoa em dias e informe-a em anos, meses e dias.  
 > Obs.: apenas para facilitar o cálculo, considere todo ano com 365 dias e todo mês com 30 dias. Nos casos de teste nunca haverá uma situação que permite 12 meses e alguns dias, como 360, 363 ou 364. Este é apenas um exercício com objetivo de testar raciocínio matemático simples.

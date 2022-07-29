@@ -10,6 +10,11 @@ Autor:
 
 # Função main
 def main():
+    
+    print("="*30)
+    print("ENTRADA")
+    print("="*30)
+    
     # Entrada dos valores
     try:
         valor_1, valor_2 = map(int, input("Digite os dois valores inteiros: ").split())
@@ -31,6 +36,10 @@ def main():
     else:
         par_ou_impar = "ÍMPAR"
 
+    print("="*30)
+    print("SAÍDA")
+    print("="*30)
+    
     # Saída
     print(f"{valor_1} + {valor_2} = {soma} --> {par_ou_impar}")
 

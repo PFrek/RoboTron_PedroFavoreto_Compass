@@ -1,29 +1,49 @@
 # Challenge Sprint 4 - Technology Core Python
 
-![progress-bar](https://progress-bar.dev/8/?scale=28&title=solucionados&width=200&suffix=/28)
+![progress-bar](https://progress-bar.dev/12/?scale=28&title=solucionados&width=200&suffix=/28)
 
 Neste repositório serão colocadas as soluções dos exercícios de Python, conforme as instruções do Challenge da Sprint 4 da trilha RoboTron.
 
 
 ## Apresentação
 
+### Estrutura
+
+O repositório está separado em duas pastas, Dia_5/ e Dia_7/, cada uma contendo as soluções dos exercícios apresentados nos respectivos dias.
+
+Cada uma das pastas também contém um README.md que disponibiliza links para acesso das soluções.
 
 ### Pré-requisitos
 
-(Informações de pré-requisitos)
+- Python (versão utilizada 3.10.5)
+- Pandas (versão utilizada 1.4.3)
 
 ### Instalação
 
 ```bash
-# clonar repositório
+# 1. Clonar repositório
 git clone https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass
 
+# 2. Ir até o diretório clonado
+cd RoboTron_Pedro_Favoreto_Compass
+
+# 3. Instalação Pandas (Caso já não esteja instalado)
+    # a. Criar um virtual environment
+    py -m venv .venv
+
+    # c. Ativar o virtual environment
+    # Windows
+    .venv\Scripts\activate
+
+    # c. Instalar Pandas com pip
+    py -m pip install pandas
 ```
 
 ## Tecnologias utilizadas
 
-- [Python 3.10.5](https://www.python.org/downloads/release/python-3105/)
-- [Pandas 1.4.3](https://pandas.pydata.org/)
+- [VsCode](https://code.visualstudio.com/): IDE para edição de arquivos.
+- [Python 3.10.5](https://www.python.org/downloads/release/python-3105/): Linguagem utilizada nas soluções.
+- [Pandas 1.4.3](https://pandas.pydata.org/): Biblioteca para manipulação de dados.
 
 ## Autores
 
