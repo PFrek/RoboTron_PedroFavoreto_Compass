@@ -14,6 +14,8 @@ Referência:
     https://pt.wikipedia.org/wiki/Fatorial
 """
 
+from helper_formatacao import print_header
+
 
 def fatorial(x):
     """Calcula o fatorial de X (X!) por meio de recursão.
@@ -57,20 +59,17 @@ def tabuada(x):
 # Função main
 def main():
     
-    print("="*30)
-    print("ENTRADA")
-    print("="*30)
-    
     # Entrada do inteiro X
+    print_header("ENTRADA")
+    
     try:
         x = int(input("Digite um número inteiro: "))
     except ValueError as err:
         print("Erro: Entrada inválida. -- ", err)
         return
     
-    print("="*30)
-    print("SAÍDA")
-    print("="*30)
+
+    print_header("SAÍDA")
     
     # Se X for par
     if x % 2 == 0:

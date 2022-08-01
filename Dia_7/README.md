@@ -1,6 +1,6 @@
 # Exercícios Dia 7
 
-![progress-bar](https://progress-bar.dev/0/?scale=16&title=solucionados&width=200&suffix=/16)
+![progress-bar](https://progress-bar.dev/4/?scale=16&title=solucionados&width=200&suffix=/16)
 
 Esta pasta contém as soluções dos exercícios de Python disponibilizados no Dia 7 da trilha.
 
@@ -17,24 +17,28 @@ Esta pasta contém as soluções dos exercícios de Python disponibilizados no D
 ## Enunciados dos exercícios
 
 > ### Exercício 01 -- [13/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_7/exercicio_01.py)
 > 
 > Baixe o arquivo do link **JSON 1**, abra ele no vsCode com Python nomeando-o como partida, guarde em uma variável e printe o JSON inteiro no terminal.
 
 -----
 
 > ### Exercício 02 -- [14/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_7/exercicio_02.py)
 > 
 > Pegue o arquivo **JSON 1** e printe apenas o nome do time vencedor no terminal.
 
 -----
 
 > ### Exercício 03 -- [15/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_7/exercicio_03.py)
 > 
 > Do **JSON 1** Guarde apenas o Nome do Estádio, o Placar e o Status do jogo dentro de variáveis e mostre-as.
 
 -----
 
 > ### Exercício 04 -- [16/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_7/exercicio_04.py)
 > 
 > No **JSON 1** printe todas as chaves e valores do time visitante.
 

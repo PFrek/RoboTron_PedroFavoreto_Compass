@@ -8,6 +8,7 @@ Autor:
     Pedro Favoreto Gaya - 29/07/2022
 """
 
+from helper_formatacao import print_header
 
 # Função main
 def main():
@@ -17,9 +18,9 @@ def main():
     # Limite de valores para receber da entrada
     limite = 3
     
-    print("="*30)
-    print("ENTRADA")
-    print("="*30)
+
+    print_header("ENTRADA")
+
     print(f"Digite {limite} frutas:")
     # Enquanto a lista tiver menos que 3 frutas
     while len(lista) < limite:
@@ -47,9 +48,9 @@ def main():
     # Lista para comparação
     comparacao = ["maça", "banana", "pera"]
     
-    print("="*30)
-    print("SAÍDA")
-    print("="*30)
+    
+    print_header("SAÍDA")
+    
     print("Comparando as seguintes listas:")
     # Apresenta a lista de entrada
     print("- ", end="")

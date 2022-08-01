@@ -10,15 +10,14 @@ Autor:
     Pedro Favoreto Gaya - 27/07/2022
 """
 
+from helper_formatacao import print_header
 
 # Função main
 def main():
     
-    print("="*30)
-    print("ENTRADA")
-    print("="*30)
-    
     # Entrada da idade
+    print_header("ENTRADA")
+    
     try:
         idade = int(input("Digite a idade: "))
         if idade < 0:
@@ -27,9 +26,8 @@ def main():
         print("Erro: Entrada inválida. -- ", err)
         return
     
-    print("="*30)
-    print("SAÍDA")
-    print("="*30)
+   
+    print_header("SAÍDA")
     
     # Se for maior ou igual a 18
     if idade >= 18:

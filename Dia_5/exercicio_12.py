@@ -12,15 +12,14 @@ Autor:
     Pedro Favoreto Gaya - 29/07/2022
 """
 
+from helper_formatacao import print_header
 
 # Função main
 def main():
     
-    print("="*30)
-    print("ENTRADA")
-    print("="*30)
-    
     # Entrada da idade em dias
+    print_header("ENTRADA")
+    
     try:
         prompt = "Digite a idade em dias: "
         
@@ -42,11 +41,10 @@ def main():
     # Restante dos dias além dos meses = quantidade de dias
     idade_dias %= 30
     
-    print("="*30)
-    print("SAÍDA")
-    print("="*30)
     
     # Saída
+    print_header("SAÍDA")
+
     print(f"{idade_anos} ano(s)")
     print(f"{idade_meses} mes(es)")
     print(f"{idade_dias} dia(s)")

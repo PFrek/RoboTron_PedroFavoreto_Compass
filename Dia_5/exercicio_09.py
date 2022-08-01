@@ -13,6 +13,7 @@ Referência:
     https://docs.python.org/3/tutorial/datastructures.html
 """
 
+from helper_formatacao import print_header
 
 # Função main
 def main():
@@ -22,9 +23,9 @@ def main():
     # Limite de valores para receber da entrada
     limite = 15
     
-    print("="*30)
-    print("ENTRADA")
-    print("="*30)
+
+    print_header("ENTRADA")
+    
     print(f"Digite {limite} valores:")
     # Enquanto a lista não tiver 15 valores
     while len(lista) < limite:
@@ -49,9 +50,9 @@ def main():
             else:
                 print("Limite de valores atingido. Descartando entrada:", item)
     
-    print("="*30)
-    print("SAÍDA")
-    print("="*30)
+    
+    print_header("SAÍDA")
+    
     # Apresenta a lista do último para o primeiro valor
     for valor in reversed(lista):
         print(valor, end=" ")

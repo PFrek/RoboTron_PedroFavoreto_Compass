@@ -8,6 +8,7 @@ Autor:py
     Pedro Favoreto Gaya - 27/07/2022
 """
 
+from helper_formatacao import print_header
 
 # Função main
 def main():
@@ -18,11 +19,9 @@ def main():
     # Cálculo da média
     media = (nota_1 + nota_2) / 2
     
-    print("="*30)
-    print("SAÍDA")
-    print("="*30)
-    
     # Saída
+    print_header("SAÍDA")
+    
     print("Média:", media)
 
 

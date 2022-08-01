@@ -12,6 +12,7 @@ Referências:
     https://math.stackexchange.com/questions/909395/what-is-the-arithmetic-mean-of-no-numbers
 """
 
+from helper_formatacao import print_header
 
 # Função main
 def main():
@@ -27,9 +28,8 @@ def main():
     # Limite de valores para receber da entrada
     limite = 20
     
-    print("="*30)
-    print("ENTRADA")
-    print("="*30)
+    
+    print_header("ENTRADA")
     
     print(f"Digite {limite} números: ")
     # Enquanto a lista tiver menos que 20 itens
@@ -63,9 +63,8 @@ def main():
             else:
                 print("Limite de valores atingido. Descartando entrada:", item)
     
-    print("="*30)
-    print("SAÍDA")
-    print("="*30)
+    
+    print_header("SAÍDA")
     
     # Se a entrada não contém nenhum valor par
     if n_pares == 0:

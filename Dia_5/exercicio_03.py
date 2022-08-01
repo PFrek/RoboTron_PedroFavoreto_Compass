@@ -8,15 +8,15 @@ Autor:
     Pedro Favoreto Gaya - 27/07/2022
 """
 
+from helper_formatacao import print_header
 
 # Função main
 def main():
     
-    print("="*30)
-    print("ENTRADA")
-    print("="*30)
-    
+
     # Entrada dos valores
+    print_header("ENTRADA")
+
     try:
         valor_1, valor_2 = map(int, input("Digite os dois valores inteiros: ").split())
     except ValueError as err:
@@ -37,11 +37,10 @@ def main():
     else:
         par_ou_impar = "ÍMPAR"
 
-    print("="*30)
-    print("SAÍDA")
-    print("="*30)
-    
+
     # Saída
+    print_header("SAÍDA")   
+    
     print(f"{valor_1} + {valor_2} = {soma} --> {par_ou_impar}")
 
 if __name__ == '__main__':

@@ -8,37 +8,38 @@ Autor:
     Pedro Favoreto Gaya - 28/07/2022
 """
 
+from helper_formatacao import print_header
+
 
 def media(valor_1, valor_2):
     """Retorna a média aritmética de dois inteiros.
 
     Args:
-        valor_1 (int): Primeiro valor inteiro.
-        valor_2 (int): Segundo valor inteiro.
+        valor_1 (int): Primeiro valor.
+        valor_2 (int): Segundo valor.
+
+    Returns:
+        float: A média aritmética dos dois valores.
     """
     return (valor_1 + valor_2) / 2
     
 
-
 # Função main
 def main():
     
-    print("="*30)
-    print("ENTRADA")
-    print("="*30)
-    
     # Entrada dos dois valores
+    print_header("ENTRADA")
+    
     try:
         x, y = map(int, input("Digite dois números inteiros: ").split())
     except ValueError as err:
         print("Erro: Entrada inválida. -- ", err)
         return
     
-    print("="*30)
-    print("SAÍDA")
-    print("="*30)
     
     # Saída
+    print_header("SAÍDA")
+    
     print("Média:", media(x, y))
 
 

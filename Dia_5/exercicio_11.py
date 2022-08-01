@@ -12,15 +12,14 @@ Autor:
     Pedro Favoreto Gaya - 29/07/2022
 """
 
+from helper_formatacao import print_header
 
 # Função main
 def main():    
     
-    print("="*30)
-    print("ENTRADA")
-    print("="*30)
-    
     # Entrada das horas inicial e final do jogo
+    print_header("ENTRADA")
+    
     try:
         prompt = "Digite a hora inicial e a hora final do jogo: "
         
@@ -51,11 +50,10 @@ def main():
         # Duracao = hora final - hora inicial
         duracao = hora_final - hora_inicial
     
-    print("="*30)
-    print("SAÍDA")
-    print("="*30)
-     
+    
     # Saída
+    print_header("SAÍDA")
+    
     print(f"O JOGO DUROU {duracao} HORA(S)")
 
 

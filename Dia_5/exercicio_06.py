@@ -12,15 +12,14 @@ Referência:
     https://www.w3schools.com/python/ref_func_range.asp
 """
 
+from helper_formatacao import print_header
 
 # Função main
 def main():
     
-    print("="*30)
-    print("ENTRADA")
-    print("="*30)
-    
     # Entrada
+    print_header("ENTRADA")
+    
     try:
         x = int(input("Digite um número inteiro maior ou igual a 2: "))
         
@@ -37,11 +36,10 @@ def main():
     # Lista com os ímpares até X (inclusivo)
     impares = range(1, x+1, 2)
     
-    print("="*30)
-    print("SAÍDA")
-    print("="*30)
     
     # Saída
+    print_header("SAÍDA")
+    
     for n in impares:
         print(n, end=' ')
         
