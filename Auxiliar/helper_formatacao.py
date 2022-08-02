@@ -17,7 +17,7 @@ def print_header(titulo, divisor="=", quantidade=30):
     print(divisor*quantidade)
 
 
-def _print_chave_valor(chave, valor, recuo=0, incremento=4, char_recuo=" "):
+def _print_chave_valor(chave, valor, recuo, incremento, char_recuo):
     """Função auxiliar para print_json()
     
     Apresenta um par de chave, valor de um JSON com formatação.
@@ -44,7 +44,7 @@ def _print_chave_valor(chave, valor, recuo=0, incremento=4, char_recuo=" "):
         # Recursão para os items do valor no próximo nível de recuo
         
         for c, v in valor.items():
-            _print_chave_valor(c, v, recuo+incremento)
+            _print_chave_valor(c, v, recuo+incremento, incremento, char_recuo)
         
         
         # Recuar linha pelo número de caracteres de recuo
@@ -78,7 +78,7 @@ def _print_chave_valor(chave, valor, recuo=0, incremento=4, char_recuo=" "):
             
             # Recursão para os items do valor no próximo nível de recuo
             for c, v in item.items():
-                _print_chave_valor(c, v, recuo+incremento)
+                _print_chave_valor(c, v, recuo+incremento, incremento, char_recuo)
             
             # Recuar linha pelo número de caracteres de recuo
             print(char_recuo*recuo, end="")
@@ -103,7 +103,7 @@ def _print_chave_valor(chave, valor, recuo=0, incremento=4, char_recuo=" "):
         # Somente imprime o valor
         print(valor)
         
-def print_json(objeto_json):
+def print_json(objeto_json, recuo=2, incremento=4, char_recuo=" "):
     """Apresenta um objeto json (dict) formatado para facilitar a leitura
 
     Args:
@@ -111,6 +111,6 @@ def print_json(objeto_json):
     """
     print("{")
     for chave, valor in objeto_json.items():
-        _print_chave_valor(chave, valor, recuo=2)
+        _print_chave_valor(chave, valor, recuo, incremento, char_recuo)
     
     print("}")
