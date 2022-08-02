@@ -1,11 +1,10 @@
-"""Exercício 3 [15/28]
+"""Exercício 7 [19/28]
 
 Enunciado:
-    Do JSON 1 Guarde apenas o Nome do Estádio, o Placar e o Status do jogo
-    dentro de variáveis e mostre-as.
+    Percorra o JSON 2, utilizando o loop FOR e printe suas chaves principais.
 
 Autor:
-    Pedro Favoreto Gaya - 01/08/2022
+    Pedro Favoreto Gaya - 02/08/2022
 """
 
 ###
@@ -18,31 +17,28 @@ sys.path.insert(1, os.path.join(sys.path[0], '..'))
 from Auxiliar.helper_formatacao import print_header
 ###
 
-from exercicio_01 import abrir_json # função abrir_json() do exercicio_01
+from exercicio_01 import abrir_json
 
 # Função main
 def main():
     # Leitura do arquivo json
-    partida_json = abrir_json("dados/partida.json")
-    dados_partida = partida_json["copa-do-brasil"][0]
-    
-    # Obter as informações do json
-    nome_estadio = dados_partida["estadio"]["nome_popular"]
-    placar = dados_partida["placar"]
-    status = dados_partida["status"]
+    campeonato = abrir_json("dados/campeonato.json")
     
     # Saída
     print_header("SAÍDA")
     
-    print("Nome do estádio:", nome_estadio)
-    print("Placar:", placar)
-    print("Status:", status)
+    print("Chaves principais de campeonato.json:")
+    
+    # Para cada chave em campeonato.json
+    for chave in campeonato:
+        # Imprime a chave
+        print(chave)
 
 
 if __name__ == '__main__':
     main()
     
-    
+
 """
 ========================================================================
 TEST CASES
@@ -54,9 +50,19 @@ TC-01:
 (vazia)
 ------------------------------------------------------------------------
 [Saída esperada]
-Nome do estádio: Bruno José Daniel
-Placar: Santo André 4x1 Criciuma
-Status: finalizado
+Chaves principais de campeonato.json:
+campeonato_id
+nome
+slug
+nome_popular
+edicao_atual
+fase_atual
+rodada_atual
+status
+tipo
+logo
+regiao
+fases
 
 ========================================================================
 """ 

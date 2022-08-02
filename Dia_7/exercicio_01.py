@@ -12,10 +12,18 @@ Referências:
     https://stackoverflow.com/questions/918154/relative-paths-in-python
 """
 
-import json
-import os
+###
+# Importar funções auxiliares do diretório acima
+# Referência: https://stackoverflow.com/questions/714063/importing-modules-from-parent-folder
+import os.path
+import sys
+sys.path.insert(1, os.path.join(sys.path[0], '..'))
 
-from helper_formatacao import print_header
+from Auxiliar.helper_formatacao import print_header, print_json
+###
+
+
+import json
 
 def abrir_json(nome_arquivo):
     """Abre um arquivo JSON e retorna o seu conteúdo.
@@ -34,7 +42,7 @@ def abrir_json(nome_arquivo):
     with open(nome_arquivo, encoding="UTF-8") as arquivo:
         conteudo_json = json.load(arquivo)
         return conteudo_json
-
+            
 # Função main
 def main():
     # Leitura do arquivo json
@@ -43,7 +51,9 @@ def main():
     # Saída do json completo
     print_header("SAÍDA")
     
-    print(partida_json)
+    # Função auxiliar definida em ..\Auxiliar\helper_formatacao.py
+    print_json(partida_json)
+    
 
 
 if __name__ == '__main__':
@@ -61,7 +71,7 @@ TC-01:
 (vazia)
 ------------------------------------------------------------------------
 [Saída esperada]
-(Conteúdo do arquivo json "partida.json")
+(Conteúdo do arquivo "partida.json")
 
 ========================================================================
 """ 

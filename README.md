@@ -1,6 +1,6 @@
 # Challenge Sprint 4 - Technology Core Python
 
-![progress-bar](https://progress-bar.dev/16/?scale=28&title=solucionados&width=200&suffix=/28)
+![progress-bar](https://progress-bar.dev/22/?scale=28&title=solucionados&width=200&suffix=/28)
 
 Neste repositório serão colocadas as soluções dos exercícios de Python, conforme as instruções do Challenge da Sprint 4 da trilha RoboTron.
 
@@ -16,6 +16,7 @@ Cada uma das pastas também contém um README.md que disponibiliza links para ac
 ### Pré-requisitos
 
 - Python (versão utilizada 3.10.5)
+    - Exercício 6 do Dia 7 exige pelo menos Python 3.7
 - Pandas (versão utilizada 1.4.3)
 
 ### Instalação

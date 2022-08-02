@@ -12,7 +12,15 @@ Referência:
     https://www.w3schools.com/python/ref_func_range.asp
 """
 
-from helper_formatacao import print_header
+###
+# Importar funções auxiliares do diretório acima
+# Referência: https://stackoverflow.com/questions/714063/importing-modules-from-parent-folder
+import os.path
+import sys
+sys.path.insert(1, os.path.join(sys.path[0], '..'))
+
+from Auxiliar.helper_formatacao import print_header
+###
 
 # Função main
 def main():

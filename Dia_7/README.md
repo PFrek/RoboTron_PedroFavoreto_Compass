@@ -1,6 +1,6 @@
 # Exercícios Dia 7
 
-![progress-bar](https://progress-bar.dev/4/?scale=16&title=solucionados&width=200&suffix=/16)
+![progress-bar](https://progress-bar.dev/10/?scale=16&title=solucionados&width=200&suffix=/16)
 
 Esta pasta contém as soluções dos exercícios de Python disponibilizados no Dia 7 da trilha.
 
@@ -45,36 +45,44 @@ Esta pasta contém as soluções dos exercícios de Python disponibilizados no D
 -----
 
 > ### Exercício 05 -- [17/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_7/exercicio_05.py)
 > 
 > Guarde o arquivo **JSON 2** nomeando-o como **campeonato** em uma variável e printe todos os seus dados.
 
 -----
 
 > ### Exercício 06 -- [18/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_7/exercicio_06.py)
 > 
 > Faça com que o programa printe apenas os primeiros dados dentro de edicao_atual, fase_atual, rodada_atual usando o **JSON 2**.
+>
+> Obs.: Implementação exige Python versão 3.7 ou acima, pois espera que dicionários sejam ordenados por ordem de inserção.
 
 -----
 
 > ### Exercício 07 -- [19/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_7/exercicio_07.py)
 > 
 > Percorra o **JSON 2**, utilizando o loop FOR e printe suas chaves principais.
 
 -----
 
 > ### Exercício 08 -- [20/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_7/exercicio_08.py)
 > 
 > Abra o arquivo **CSV** com Pandas e guarde em uma variável de sua escolha e printe o conteúdo no terminal.
 
 -----
 
 > ### Exercício 09 -- [21/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_7/exercicio_09.py)
 > 
 > Usando Pandas, leia apenas os dados da coluna Age do **CSV**.
 
 -----
 
 > ### Exercício 10 -- [22/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_7/exercicio_10.py)
 > 
 > Usando Pandas, procure por um dado específico (da sua escolha) e printe somente o mesmo utilizando o CSV.
 
