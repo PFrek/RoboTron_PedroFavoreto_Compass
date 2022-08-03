@@ -1,7 +1,7 @@
 """Exercício 15 [27/28]
 
 Enunciado:
-    Mostre todos os filmes menos o "The Revenant"
+    Mostre todos os filmes menos o "The Revenant".
 
 Autor:
     Pedro Favoreto Gaya - 03/08/2022
