@@ -1,6 +1,6 @@
 # Challenge Sprint 4 - Technology Core Python
 
-![progress-bar](https://progress-bar.dev/22/?scale=28&title=solucionados&width=200&suffix=/28)
+![progress-bar](https://progress-bar.dev/28/?scale=28&title=solucionados&width=200&suffix=/28)
 
 Neste repositório serão colocadas as soluções dos exercícios de Python, conforme as instruções do Challenge da Sprint 4 da trilha RoboTron.
 
@@ -12,6 +12,8 @@ Neste repositório serão colocadas as soluções dos exercícios de Python, con
 O repositório está separado em duas pastas, Dia_5/ e Dia_7/, cada uma contendo as soluções dos exercícios apresentados nos respectivos dias.
 
 Cada uma das pastas também contém um README.md que disponibiliza links para acesso das soluções.
+
+Uma terceira pasta, Auxiliar, contém funções auxiliares utilizadas na formatação das saídas no terminal.
 
 ### Pré-requisitos
 

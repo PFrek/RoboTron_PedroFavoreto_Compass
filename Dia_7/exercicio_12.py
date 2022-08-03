@@ -1,10 +1,10 @@
-"""Exercício 7 [19/28]
+"""Exercício 12 [24/28]
 
 Enunciado:
-    Percorra o JSON 2, utilizando o loop FOR e printe suas chaves principais.
+    Printe somente o nome dos atores que ganharam o Oscar em 1991 e 2016.
 
 Autor:
-    Pedro Favoreto Gaya - 02/08/2022
+    Pedro Favoreto Gaya - 03/08/2022
 """
 
 ###
@@ -17,23 +17,25 @@ sys.path.insert(1, os.path.join(sys.path[0], '..'))
 from Auxiliar.helper_formatacao import print_header
 ###
 
-from exercicio_01 import abrir_json # função abrir_json() do exercicio_01
+import pandas as pd
 
 # Função main
 def main():
-    # Leitura do arquivo json
-    campeonato = abrir_json("dados/campeonato.json")
+    # Leitura do arquivo csv
+    oscar_df = pd.read_csv("dados/oscar.csv", encoding="UTF-8", sep=",")
     
+    # Series com o nome dos atores dos anos 1991 e 2016
+    atores = oscar_df.loc[
+        (oscar_df["Year"] == 1991) | (oscar_df["Year"] == 2016), # Linhas
+        "Name" # Coluna
+    ]
+
+
     # Saída
     print_header("SAÍDA")
     
-    print("Chaves principais de campeonato.json:")
-    
-    # Para cada chave em campeonato.json
-    for chave in campeonato:
-        # Imprime a chave
-        print(chave)
-
+    print("Ator que ganhou o oscar em 1991:", atores.iloc[0])
+    print("Ator que ganhou o Oscar em 2016:", atores.iloc[1])
 
 if __name__ == '__main__':
     main()
@@ -50,19 +52,8 @@ TC-01:
 (vazia)
 ------------------------------------------------------------------------
 [Saída esperada]
-Chaves principais de campeonato.json:
-campeonato_id
-nome
-slug
-nome_popular
-edicao_atual
-fase_atual
-rodada_atual
-status
-tipo
-logo
-regiao
-fases
+Ator que ganhou o Oscar em 1991: Jeremy Irons
+Ator que ganhou o Oscar em 2016: Leonardo DiCaprio
 
 ========================================================================
 """ 

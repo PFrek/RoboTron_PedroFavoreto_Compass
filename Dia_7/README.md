@@ -1,6 +1,6 @@
 # Exercícios Dia 7
 
-![progress-bar](https://progress-bar.dev/10/?scale=16&title=solucionados&width=200&suffix=/16)
+![progress-bar](https://progress-bar.dev/16/?scale=16&title=solucionados&width=200&suffix=/16)
 
 Esta pasta contém as soluções dos exercícios de Python disponibilizados no Dia 7 da trilha.
 
@@ -89,36 +89,43 @@ Esta pasta contém as soluções dos exercícios de Python disponibilizados no D
 -----
 
 > ### Exercício 11 -- [23/28] ![Fácil](https://img.shields.io/badge/-F%C3%A1cil-brightgreen)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_7/exercicio_11.py)
 > 
 > Printe o nome do Ator que ganhou o Oscar em 1993.
 
 -----
 
 > ### Exercício 12 -- [24/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_7/exercicio_12.py)
 > 
 > Printe somente o nome dos atores que ganharam o Oscar em 1991 e 2016.
 
 -----
 
 > ### Exercício 13 -- [25/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_7/exercicio_13.py)
 >
 > Crie mais uma coluna em tempo de execução juntando os dados movie e year.
 
 -----
 
 > ### Exercício 14 -- [26/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_7/exercicio_14.py)
 > 
 > Printe todos os nomes e as idades dos atores que ganharam o oscar de 1987 até 1999.
 
 -----
 
 > ### Exercício 15 -- [27/28] ![Médio](https://img.shields.io/badge/-M%C3%A9dio-yellow)
+> [Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_7/exercicio_15.py)
 >
 > Mostre todos os filmes menos o "The Revenant".
 
 -----
 
 ## Exercício final de leitura de dados CSV e JSON -- [28/28] ![Difícil](https://img.shields.io/badge/-Dif%C3%ADcil-red)
+
+[Solução](https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass/blob/develop/Dia_7/Exercicio_final/exercicio_final.py)
 
 **Em Python crie uma aplicação que mostre elementos específicos em uma tabela periódica:**
 

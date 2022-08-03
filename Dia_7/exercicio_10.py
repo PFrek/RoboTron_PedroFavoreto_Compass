@@ -31,13 +31,17 @@ def main():
     # Leitura do arquivo csv
     oscar_df = pd.read_csv("dados/oscar.csv", encoding="UTF-8", sep=",")
     
-    # Objetivo: Nome do filme que ganhou o oscar em 1993
-    filme_1993 = oscar_df[oscar_df["Year"] == 1993]["Movie"]
+    # Objetivo: Nome do filme referente ao ano de 1985
+    ano = 1985
+    filme = oscar_df.loc[
+        oscar_df["Year"] == ano,
+        "Movie"
+    ]
     
     # Saída
     print_header("SAÍDA")
     
-    print("Filme referente ao ano de 1993:", filme_1993.to_string(index=False))
+    print(f"Filme referente ao ano de {ano}: {filme.to_string(index=False)}")
 
 
 if __name__ == '__main__':
@@ -55,7 +59,7 @@ TC-01:
 (vazia)
 ------------------------------------------------------------------------
 [Saída esperada]
-Filme referente ao ano de 1993: Scent of a Woman
+Filme referente ao ano de 1993: Amadeus
 
 ========================================================================
 """ 
