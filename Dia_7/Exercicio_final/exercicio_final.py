@@ -67,10 +67,11 @@ class TabelaPeriodica:
         
     
     def _construir_comandos(self):
-        # Comando para exibir os comandos válidos
         # Estrutura da tupla de comando:
         # [0]: Função correspondente ao comando
         # [1]: Argumento a ser passado à função. None se não houver argumentos.
+        
+        # Comando para exibir os comandos válidos
         self._comandos_dict["comandos"] = (self._exibir_comandos, None)
         
         # Comando para encerrar o loop
@@ -109,11 +110,10 @@ class TabelaPeriodica:
             # Ler a entrada
             funcao, argumento = self._ler_entrada()
             
-            # Se não ocorreu erro durante a entrada,
-            # ou seja, funcao não recebeu None.
+            # Se uma função foi encontrada
             if funcao:
                 
-                # Se um argumento não None foi recebido
+                # Se um argumento foi recebido
                 if argumento:
                     # Executar a função com o argumento
                     funcao(argumento)
