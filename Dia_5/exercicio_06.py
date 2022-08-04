@@ -36,15 +36,15 @@ def main():
             raise ValueError("Número deve ser maior ou igual a 2")
         
     except ValueError as err:
+        # Saída de erro
         print("Erro: Entrada inválida. -- ", err)
         return
+
     
-    
-    
-    # Lista com os ímpares até X (inclusivo)
+    # Sequência com os ímpares até X (inclusivo)
     impares = range(1, x+1, 2)
     
-    
+
     # Saída
     print_header("SAÍDA")
     

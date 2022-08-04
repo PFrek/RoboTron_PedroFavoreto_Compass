@@ -24,11 +24,12 @@ from Auxiliar.helper_formatacao import print_header
 
 # Função main
 def main():
+    
     # Lista que guardará os números entrados
     numeros = []
     
     # Variável que guardará a soma dos valores pares
-    soma = 0
+    soma_pares = 0
     
     # Contador de números pares da entrada
     n_pares = 0
@@ -44,9 +45,11 @@ def main():
     while len(numeros) < limite:
         # Recebe uma entrada /ou/ várias entradas separadas por espaço
         try:
+            # Prompt da entrada informando quantas entradas já foram inseridas
             prompt = f"[{str(len(numeros)).zfill(2)}/{limite}]>"
             
-            entradas = list(map(int, input(prompt).split()))
+            # Recebe e converte as entradas em uma lista de floats
+            entradas = list(map(float, input(prompt).split()))
             
         except ValueError as err:
             print("Aviso: Entrada inválida. Linha descartada. Tente novamente. -- ", err)
@@ -62,7 +65,7 @@ def main():
                 # Se for um valor par
                 if item % 2 == 0:
                     # Adiciona o valor à soma
-                    soma += item
+                    soma_pares += item
                     
                     # Incrementa o contador de números pares
                     n_pares += 1
@@ -83,7 +86,7 @@ def main():
     # Caso contrário
     else:    
         # Calcula a média
-        media = soma / n_pares
+        media = soma_pares / n_pares
 
         # Saída
         print("Média dos valores pares:", media)
@@ -157,7 +160,7 @@ TC-04:
 72 10 68 70 2 70 82 22 54
 ------------------------------------------------------------------------
 [Saída esperada]
-Média dos valores pares: 50
+Média dos valores pares: 50.0
 
 ========================================================================
 
