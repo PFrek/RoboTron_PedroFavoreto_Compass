@@ -21,6 +21,7 @@ from Auxiliar.helper_formatacao import print_header
 
 # Função main
 def main():
+    
     # Inicialização das variáveis
     nota_1 = 9
     nota_2 = 8.5
