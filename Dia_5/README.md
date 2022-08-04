@@ -1,6 +1,6 @@
 # Exercícios Dia 5
 
-![progress-bar](https://progress-bar.dev/12/?scale=12&title=solucionados&width=200&suffix=/12)
+![progress-bar](https://progress-bar.dev/12/?scale=12&title=progresso&width=200&suffix=/12)
 
 Esta pasta contém as soluções dos exercícios de Python disponibilizados no Dia 5 da trilha.  
 

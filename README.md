@@ -1,6 +1,6 @@
 # Challenge Sprint 4 - Technology Core Python
 
-![progress-bar](https://progress-bar.dev/28/?scale=28&title=solucionados&width=200&suffix=/28)
+![progress-bar](https://progress-bar.dev/28/?scale=28&title=progresso&width=200&suffix=/28)
 
 Neste repositório serão colocadas as soluções dos exercícios de Python, conforme as instruções do Challenge da Sprint 4 da trilha RoboTron.
 
@@ -52,9 +52,6 @@ cd RoboTron_Pedro_Favoreto_Compass
 
 - Pedro Favoreto Gaya: <https://github.com/PFrek>
 
-## License
-
-(Informações sobre a licença)
 
 ## Créditos
 

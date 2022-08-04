@@ -1,6 +1,6 @@
 # Exercícios Dia 7
 
-![progress-bar](https://progress-bar.dev/16/?scale=16&title=solucionados&width=200&suffix=/16)
+![progress-bar](https://progress-bar.dev/16/?scale=16&title=progresso&width=200&suffix=/16)
 
 Esta pasta contém as soluções dos exercícios de Python disponibilizados no Dia 7 da trilha.
 
