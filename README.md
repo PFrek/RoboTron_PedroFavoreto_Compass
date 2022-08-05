@@ -4,7 +4,6 @@
 
 Neste repositório serão colocadas as soluções dos exercícios de Python, conforme as instruções do Challenge da Sprint 4 da trilha RoboTron.
 
-
 ## Apresentação
 
 ### Estrutura
@@ -24,6 +23,7 @@ Uma terceira pasta, Auxiliar, contém funções auxiliares utilizadas na formata
 ### Instalação
 
 ```bash
+
 # 1. Clonar repositório
 git clone https://github.com/PFrek/RoboTron_Pedro_Favoreto_Compass
 
@@ -40,13 +40,16 @@ cd RoboTron_Pedro_Favoreto_Compass
 
     # c. Instalar Pandas com pip
     py -m pip install pandas
+
 ```
 
 ## Tecnologias utilizadas
 
+
 - [VsCode](https://code.visualstudio.com/): IDE para edição de arquivos.
 - [Python 3.10.5](https://www.python.org/downloads/release/python-3105/): Linguagem utilizada nas soluções.
 - [Pandas 1.4.3](https://pandas.pydata.org/): Biblioteca para manipulação de dados.
+
 
 ## Autores
 
