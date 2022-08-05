@@ -4,7 +4,7 @@ Enunciado:
     Usando Pandas, procure por um dado específico (da sua escolha)
     e printe somente o mesmo utilizando o CSV.
     
-    Dado procurado: Filme referente ao ano de 1993.
+    Dado procurado: Filme referente ao ano de 1985.
 
 Autor:
     Pedro Favoreto Gaya - 02/08/2022
@@ -12,6 +12,9 @@ Autor:
 Referências:
     Exibir resultado sem coluna de índice:
     https://stackoverflow.com/questions/24644656/how-to-print-pandas-dataframe-without-index
+    
+    Correção do caminho relativo do arquivo:
+    https://stackoverflow.com/questions/918154/relative-paths-in-python
 """
 
 ###
@@ -28,8 +31,17 @@ import pandas as pd
 
 # Função main
 def main():
-    # Leitura do arquivo csv
-    oscar_df = pd.read_csv("dados/oscar.csv", encoding="UTF-8", sep=",")
+    # Leitura do arquivo CSV
+    try:
+        # Montagem do caminho absoluto para o arquivo.
+        # Permite executar o script a partir de outras pastas, sem que haja erro.
+        diretorio = os.path.dirname(__file__)
+        arquivo_csv = os.path.join(diretorio, "dados/oscar.csv")
+        
+        oscar_df = pd.read_csv(arquivo_csv, encoding="UTF-8", sep=",")
+    except FileNotFoundError as err:
+        print("Erro: Arquivo não encontrado --", err)
+        return
     
     # Objetivo: Nome do filme referente ao ano de 1985
     ano = 1985
@@ -59,7 +71,7 @@ TC-01:
 (vazia)
 ------------------------------------------------------------------------
 [Saída esperada]
-Filme referente ao ano de 1993: Amadeus
+Filme referente ao ano de 1985: Amadeus
 
 ========================================================================
 """ 

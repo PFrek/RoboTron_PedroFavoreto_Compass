@@ -14,8 +14,9 @@ Enunciado:
     C) Listar todos os dados de todos os elementos inseridos.
 
 Autor:
-    Pedro Favoreto Gaya - [Data]
+    Pedro Favoreto Gaya - 03/08/2022
 """
+import os
 
 import pandas as pd
 
@@ -59,7 +60,7 @@ class TabelaPeriodica:
         # Exibe o header da aplicação
         self._exibir_header()
         
-        # Constrói o dicionário de comandos válidos a partir dos elementos
+        # Constrói o dicionário de comandos válidos a partir dos elementos no csv carregado
         self._construir_comandos()
     
     
@@ -71,6 +72,11 @@ class TabelaPeriodica:
         """
         # Leitura do arquivo csv
         try:
+            # Montagem do caminho absoluto para o arquivo.
+            # Permite executar o script a partir de outras pastas, sem que haja erro.
+            diretorio = os.path.dirname(__file__)
+            arquivo_csv = os.path.join(diretorio, arquivo_csv)
+            
             self._elementos_df = pd.read_csv(arquivo_csv, encoding="UTF-8", sep=",")
         except FileNotFoundError as err:
             # Saída de erro, caso o arquivo não seja encontrado
@@ -213,7 +219,7 @@ class TabelaPeriodica:
                     print("Comando 'carregar' necessita do caminho do arquivo csv a ser carregado.")
                     return (None, None)
                     
-                # Altera o argumento da tupla para a segunda palavra (caminho)
+                # Altera o argumento para a segunda palavra (caminho do csv)
                 argumento = entrada[1]
                 
             return (funcao, argumento)
@@ -309,7 +315,8 @@ class TabelaPeriodica:
         print("\t\t\t\t\t-", ", ".join(lista_simbolos))
         self._exibir_separador()    
     
-        
+    
+    # Parte C)
     def _exibir_todos_elementos(self):
         """Exibe todas as propriedades de todos os elementos.
         """
@@ -319,6 +326,7 @@ class TabelaPeriodica:
         self._exibir_separador("-")
     
     
+    # Parte A)
     def _exibir_propriedade(self, propriedade):
         """Exibe uma única propriedade de todos os elementos.
 
@@ -341,6 +349,7 @@ class TabelaPeriodica:
         self._exibir_separador("-")
     
     
+    # Parte B)
     def _exibir_elemento(self, simbolo):
         """Exibe todas as propriedades de um único elemento.
 
@@ -349,13 +358,13 @@ class TabelaPeriodica:
         """
         
         # DataFrame contendo as informações do elemento
-        elemento = self._elementos_df.loc[
+        elemento_df = self._elementos_df.loc[
             self._elementos_df["Simbolo"] == simbolo
         ]
         
         # Saída
         self._exibir_separador("-")
-        print(elemento)
+        print(elemento_df)
         self._exibir_separador("-")
     
 

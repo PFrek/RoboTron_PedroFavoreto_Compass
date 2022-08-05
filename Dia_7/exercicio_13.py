@@ -10,6 +10,9 @@ Autor:
 Referências:
     Conversão de colunas numéricas em string para combinação:
     https://datatofish.com/concatenate-values-python/
+    
+    Correção do caminho relativo do arquivo:
+    https://stackoverflow.com/questions/918154/relative-paths-in-python
 """
 
 ###
@@ -26,8 +29,17 @@ import pandas as pd
 
 # Função main
 def main():
-    # Leitura do arquivo csv
-    oscar_df = pd.read_csv("dados/oscar.csv", encoding="UTF-8", sep=",")
+    # Leitura do arquivo CSV
+    try:
+        # Montagem do caminho absoluto para o arquivo.
+        # Permite executar o script a partir de outras pastas, sem que haja erro.
+        diretorio = os.path.dirname(__file__)
+        arquivo_csv = os.path.join(diretorio, "dados/oscar.csv")
+        
+        oscar_df = pd.read_csv(arquivo_csv, encoding="UTF-8", sep=",")
+    except FileNotFoundError as err:
+        print("Erro: Arquivo não encontrado --", err)
+        return
     
     # Criar a nova columa juntando "Movie" e "Year"
     oscar_df["Movie+Year"] = oscar_df["Movie"] + " (" + oscar_df["Year"].map(str) + ")"

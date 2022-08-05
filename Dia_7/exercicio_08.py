@@ -6,6 +6,10 @@ Enunciado:
 
 Autor:
     Pedro Favoreto Gaya - 02/08/2022
+    
+Referências:
+    Correção do caminho relativo do arquivo:
+    https://stackoverflow.com/questions/918154/relative-paths-in-python
 """
 
 ###
@@ -23,7 +27,16 @@ import pandas as pd
 # Função main
 def main():
     # Leitura do arquivo CSV
-    oscar_df = pd.read_csv("dados/oscar.csv", encoding="UTF-8", sep=",")
+    try:
+        # Montagem do caminho absoluto para o arquivo.
+        # Permite executar o script a partir de outras pastas, sem que haja erro.
+        diretorio = os.path.dirname(__file__)
+        arquivo_csv = os.path.join(diretorio, "dados/oscar.csv")
+        
+        oscar_df = pd.read_csv(arquivo_csv, encoding="UTF-8", sep=",")
+    except FileNotFoundError as err:
+        print("Erro: Arquivo não encontrado --", err)
+        return
     
     # Saída
     print_header("SAÍDA")

@@ -14,6 +14,9 @@ Referências:
     Obtendo a primeira chave de um dicionário:
     https://stackoverflow.com/questions/30362391/how-do-you-find-the-first-key-in-a-dictionary
     
+    Correção do caminho relativo do arquivo:
+    https://stackoverflow.com/questions/918154/relative-paths-in-python
+    
 Obs.:
     Implementação exige Python versão 3.7 ou acima, pois espera que
     dicionários sejam ordenados por ordem de inserção.
@@ -84,7 +87,7 @@ Primeiro dado dentro de fase_atual:
 "fase_id": 104
 
 Primeiro dado dentro de rodada_atual:
-"nome": "1ª Rodada"
+"nome": 1ª Rodada
 
 ========================================================================
 """ 
