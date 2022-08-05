@@ -25,6 +25,7 @@ from Auxiliar.helper_formatacao import print_header
 
 # Função main
 def main():
+    
     # Lista que guardará os números
     lista = []
     
@@ -39,6 +40,7 @@ def main():
     while len(lista) < limite:
         # Entrada dos valores
         try:
+            # Prompt da entrada informando quantas entradas já foram inseridas
             prompt = f"[{str(len(lista)).zfill(2)}/{limite}]>"
             
             entradas = input(prompt).split()

@@ -20,6 +20,7 @@ from Auxiliar.helper_formatacao import print_header
 
 # Função main
 def main():
+    
     # Lista que guardará as entradas
     lista = []
     
@@ -34,6 +35,7 @@ def main():
     while len(lista) < limite:
         # Entrada das frutas
         try:
+            # Prompt da entrada informando quantas entradas já foram inseridas
             prompt = f"[{len(lista)}/{limite}]>"
             
             entradas = input(prompt).split()
@@ -112,6 +114,9 @@ TC-01:
 uva abacaxi manga
 ------------------------------------------------------------------------
 [Saída esperada]
+Comparando as seguintes listas:
+- uva abacaxi manga
+- maça banana pera
 As listas são diferentes.
 As listas não têm frutas em comum.
 
@@ -123,6 +128,9 @@ TC-02:
 maça banana pera
 ------------------------------------------------------------------------
 [Saída esperada]
+COmparando as seguintes listas:
+- maça banana pera
+- maça banana pera
 As listas são iguais.
 Frutas em comum: maça banana pera
 
@@ -134,6 +142,9 @@ TC-03:
 maça uva maça
 ------------------------------------------------------------------------
 [Saída esperada]
+Comparando as seguintes listas:
+- maça uva maça
+- maça banana pera
 As listas são diferentes.
 Frutas em comum: maça
 

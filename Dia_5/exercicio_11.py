@@ -6,7 +6,7 @@ Enunciado:
     em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.
     Entrada: A entrada contém dois valores inteiros representando a hora
     de início e a hora de fim do jogo.
-    Saída: Apresente a duração do jogo conforme exemplo abaixo.
+    Saída: Apresente a duração do jogo conforme exemplo.
 
 Autor:
     Pedro Favoreto Gaya - 29/07/2022
