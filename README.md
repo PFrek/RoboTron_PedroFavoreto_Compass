@@ -57,3 +57,4 @@ cd RoboTron_Pedro_Favoreto_Compass
 
 - [Referência de sintaxe markdown](https://www.markdownguide.org/basic-syntax/)
 - [Barras de progresso: progress-bar.dev](https://github.com/fredericojordan/progress-bar)
+- Referências específicas de exercícios listadas nos cabeçalhos dos scripts.
